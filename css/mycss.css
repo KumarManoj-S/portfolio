@@ -1,0 +1,78 @@
+.first{
+	 	margin-top: -45px;
+	  	background-image: url("macbook3.jpg");
+		      background-repeat: no-repeat;
+	       	background-size: cover;
+		      align:center;
+	 	
+	 }
+	 .bordeaux{
+	 	background-image: url("chip.jpg");
+		      background-repeat: no-repeat;
+	       	background-size: cover;
+		      align:center;
+	 }
+	 .blues{
+	 	background-image: url("xiaomi.jpg");
+		      background-repeat: no-repeat;
+	       	background-size: cover;
+		      align:center;
+	 	
+	 }
+	 #myred{
+	 	
+	 	background-color: #ffffff;
+	 }
+	 .fonts{
+	 	font-family: serif;
+	 	font-size: 200%;
+	 }
+	 p{
+	 	font-family: sans-serif;
+	 	font-size: 20px;
+	 }
+	 .card-panel{
+	 	-webkit-box-shadow: 10px 10px 98px -11px rgba(167,160,191,1);
+-moz-box-shadow: 10px 10px 98px -11px rgba(167,160,191,1);
+box-shadow: 10px 10px 98px -11px rgba(167,160,191,1);
+Cop
+	 }
+	 .card-panel:hover{
+	 	-webkit-box-shadow: 2px 6px 32px 5px rgba(107,102,122,1);
+-moz-box-shadow: 2px 6px 32px 5px rgba(107,102,122,1);
+box-shadow: 2px 6px 32px 5px rgba(107,102,122,1);
+	 }
+	 .card{
+	 	background-color: #e0f2f1;
+	 	
+	 }
+	 .card:hover{
+	 	-webkit-box-shadow: 2px 6px 39px 5px rgba(28,27,31,1);
+-moz-box-shadow: 2px 6px 39px 5px rgba(28,27,31,1);
+box-shadow: 2px 6px 39px 5px rgba(28,27,31,1);
+Copy Text
+	 }
+	
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+       html, body {
+
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      
+    
+	
+.hidden {
+  opacity:0;
+}
+
+
+  h1 {
+    font-size: 400%;
+}

@@ -1,0 +1,190 @@
+html {
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.parallax-container {
+      height: "your height here";
+    }
+
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+    color:blue;
+}
+
+.mycard{
+
+
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+
+}
+
+.mycard:hover{
+
+ width: 110%;
+
+}
+
+.cardtitle{
+
+    
+    font-family:Berlin Sans FB;
+}
+
+.event-font{
+
+    
+    font-family:Berlin Sans FB;
+    color:#11243A;
+}
+
+
+.mytransition{
+     
+            overflow: hidden;
+            -webkit-transition : padding 200ms;
+            transition : padding 200px;
+
+        }
+.mytransition:hover{
+
+
+
+  /*  margin-top: -10px;
+    margin-left: -10px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+
+padding-left: 20px ;
+padding-right: 20px ;
+*/    
+    -webkit-transition-duration: 100ms;
+
+    -webkit-box-shadow: 0px 0px 34px -2px rgba(136,174,240,1);
+    -moz-box-shadow: 0px 0px 34px -2px rgba(136,174,240,1);
+    box-shadow: 0px 0px 34px -2px rgba(136,174,240,1);
+}
+
+
+
+nav {
+    background: #11243A; /* Initial background */
+    transition: background .5s; /* .5s how long transitions shoould take */
+}
+
+
+
+footer p:hover{
+    color : #ffffff;
+
+}
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    z-index:2;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+
+
+
+
+
+                        .overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}

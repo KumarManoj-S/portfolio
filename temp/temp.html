@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=500" />
+	<meta name="keywords" content="ScrollMagic, example, scrolling, attaching, scrollbar, anchor, link, in-page, navigation, hash" />
+	<meta name="author"	content="Jan Paepke (www.janpaepke.de)" />
+	<title>Home</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/examples.css" type="text/css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+	<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lib/highlight.pack.js"></script>
+	<script type="text/javascript" src="js/lib/modernizr.custom.min.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+	<script type="text/javascript" src="js/myjs.js"></script>
+	
+	<script type="text/javascript" src="js/lib/greensock/TweenMax.min.js"></script>
+	<script type="text/javascript" src="scrollmagic/uncompressed/ScrollMagic.js"></script>
+	<script type="text/javascript" src="scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+	  
+</head>
+<body>
+	
+	<div id="content-wrapper">
+		<div id="example-wrapper">
+			<div class="scrollContent">
+				<section id="titlechart">
+					<div class="row">
+						<br><br><br><br><br><br><br><br><br><br><br>
+						<center><b><h1 style="font-family:Khola"><span id='text' ></span><div  id='console'>&#95;</div></h1></b></center>
+						<br>
+						<h2 class="animated bounceInLeft">
+						{ACM MADURAI CHAPTER/}</h2>
+					</div>
+				</section>
+				<section class="demo" id="section-slides">
+					<style type="text/css">
+						#pinContainer {
+							width: 100%;
+							height: 100%;
+							overflow: hidden;
+							-webkit-perspective: 1000;
+							        perspective: 1000;
+						}
+						#slideContainer {
+							width: 400%; /* to contain 4 panels, each with 100% of window width */
+							height: 100%;
+						}
+						.panel {
+							height: 100%;
+							width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
+							float: left;
+						}
+					</style>
+					<div id="pinContainer">
+						<div id="slideContainer">
+							<section class="panel blue">
+								<b>ONE</b>
+							</section>
+							<section class="panel turqoise">
+								<b>TWO</b>
+							</section>
+							<section class="panel green">
+								<b>THREE</b>
+							</section>
+							<section class="panel bordeaux">
+								<b>FOUR</b>
+							</section>
+						</div>
+					</div>
+					<script>
+						
+					</script>
+				</section>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
